@@ -7,7 +7,9 @@ public class TestModel
   private String table;
 
 
-
+  /**
+   * GETTERS / SETTERS
+   */
   public String getTable()
   {
     return table;
@@ -18,4 +20,5 @@ public class TestModel
   {
     this.table = table;
   }
+
 }

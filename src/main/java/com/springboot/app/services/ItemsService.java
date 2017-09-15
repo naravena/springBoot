@@ -24,6 +24,9 @@ public interface ItemsService
    *
    * @return Lista de objetos tipo ItemsModel.
    */
-  public List<ItemsModel> searchItemsService(ItemsModel obj) throws Exception;
+public List<ItemsModel> searchItemsService(ItemsModel obj) throws Exception;
+
+
+List<ItemsModel> underlineItemsService(ItemsModel obj, List<ItemsModel> items) throws Exception;
 
 }
